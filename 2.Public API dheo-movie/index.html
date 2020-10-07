@@ -1,0 +1,88 @@
+<!-- json dengan JavaScript -->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/fontawesome/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <title>Dheo - Movie</title>
+  </head>
+  <body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><i class="fa fa-film"></i> Movie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Search Movie</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Body -->
+<div class="container">
+
+  <div class="row mt-3 justify-content-center">
+    <div class="col-md-6">
+      <h1>Search Movie</h1>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" id="search-input" placeholder="Movie title..">
+        <div class="input-group-append">
+          <button class="btn btn-outline-dark" type="button" id="search-button">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Menu -->
+  <div class="row" id="movie-list">
+    
+  </div>
+  <!-- End Menu -->
+
+</div>
+<!-- End Body -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Movie Search</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.5.1.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>

@@ -16,7 +16,7 @@ function searchMovie(){
     type: 'get',
     dataType: 'json',
     data: {
-      'apikey':'93251068',
+      'apikey':'yourkey',
       's': $('#search-input').val()
     },
     // Jika berhasil mencari
@@ -68,7 +68,7 @@ $('#movie-list').on('click','.see-detail', function(){
       type: 'get',
       dataType: 'json',
       data: {
-        'apikey':'93251068',
+        'apikey':'yourkey',
         'i': $(this).data('id') /* $(this) adalah tombol detail yang kita klik */
       },
 
